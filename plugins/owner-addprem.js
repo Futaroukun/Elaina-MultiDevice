@@ -22,6 +22,7 @@ handler.tags = ['owner']
 handler.command = /^(add|tambah|\+)p(rem)?$/i
 
 handler.group = true
+handler.private = true
 handler.rowner = true
 
 export default handler
